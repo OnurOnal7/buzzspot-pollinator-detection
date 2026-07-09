@@ -1,0 +1,11 @@
+metric,value
+hidden_test_mAP_50_95,0.404906326153285
+small_object_AP,0.410
+medium_object_AP,0.500
+large_object_AP,0.720
+bee_AP,0.532
+bumblebee_AP,0.435
+hoverfly_AP,0.154
+moth_AP,0.498
+competition_place,10
+competition_participants,36

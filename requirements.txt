@@ -1,0 +1,7 @@
+rfdetr[train,loggers]==1.8.3
+Pillow==12.3.0
+pycocotools
+supervision>=0.29.0
+scipy
+ultralytics
+tqdm
