@@ -40,7 +40,7 @@ The notebooks are copied byte-for-byte from the uploaded files; only their filen
 | 10 | [`10_size_routed_three_model_ensemble.ipynb`](notebooks/10_size_routed_three_model_ensemble.ipynb) | Hard-routed detections by COCO object-size bands, followed by class-aware NMS. | — | 0.369 |
 | 11 | [`11_rfdetr_large_1344_32ep.ipynb`](notebooks/11_rfdetr_large_1344_32ep.ipynb) | Controlled resolution increase from 1120 to 1344 with the remaining setup frozen. | 0.8864 | 0.404906 |
 | 12 | [`12_rfdetr_large_1344_temporal_inference.ipynb`](notebooks/12_rfdetr_large_1344_temporal_inference.ipynb) | Six-frame causal tracklets using Hungarian association, score fusion, class fusion, and proposal recovery. | baseline 0.8866; strongest temporal candidate 0.8863 | — |
-| 13 | [`13_rfdetr_large_1536_fresh_32ep.ipynb`](notebooks/13_rfdetr_large_1536_fresh_32ep.ipynb) | Fresh controlled 1536-resolution run from the pretrained initialization. | 0.8892 | — |
+| 13 | [`13_rfdetr_large_1536_32ep.ipynb`](notebooks/13_rfdetr_large_1536_32ep.ipynb) | Fresh controlled 1536-resolution run from the pretrained initialization. | 0.8892 | — |
 | 14 | [`14_rfdetr_large_1344_to_1536_12ep.ipynb`](notebooks/14_rfdetr_large_1344_to_1536_12ep.ipynb) | Adaptation from the selected 1344 EMA checkpoint to 1536 for 12 epochs at half learning rate. | 0.9205 (approximately 0.921) | 0.395 |
 | 15 | [`15_rfdetr_large_1344_to_1536_18ep_resume.ipynb`](notebooks/15_rfdetr_large_1344_to_1536_18ep_resume.ipynb) | True resume of the warm-started 1536 run from 12 to 18 total epochs. | 0.9275 | — |
 
